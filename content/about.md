@@ -17,4 +17,4 @@ I'm 33 years old and spent the last 18 years learning about software engineering
 
 My current main language is Rust and I'm currently trying to learn lisp.
 
-For a more detailed backstory click [here](./about-detailed).
+For a more detailed backstory click [here](../about-detailed).

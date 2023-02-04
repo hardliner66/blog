@@ -2,7 +2,7 @@
 #+author: Steve Biedermann
 #+date: <2023-02-05 Sat>
 
-#+hugo_base_dir: ../../
+#+hugo_base_dir: ../
 #+hugo_section: .
 #+hugo_tags: personal
 
@@ -20,4 +20,4 @@ I'm 33 years old and spent the last 18 years learning about software engineering
 
 My current main language is Rust and I'm currently trying to learn lisp.
 
-For a more detailed backstory click [[org:./about-detailed][here]].
+For a more detailed backstory click [[org:../about-detailed][here]].
