@@ -1,0 +1,23 @@
+#+title: About Me
+#+author: Steve Biedermann
+#+date: <2023-02-05 Sat>
+
+#+hugo_base_dir: ../
+#+hugo_section: .
+#+hugo_tags: personal
+
+#+language: en
+
+#+begin_description
+About Me
+#+end_description
+
+Hi. My name is Steve, but online I'm more commonly known as [[https://github.com/hardliner66][hardliner66]], IAmHardliner or *Hardliner*. This is my first blog,
+which I want record some of the things in my brain for others to see.
+
+I'm 33 years old and spent the last 18 years learning about software engineering, architecture and programming languages. In this time I learned more than
+25 programming languages.
+
+My current main language is Rust and I'm currently trying to learn lisp.
+
+For a more detailed backstory click [[org:about-detailed][here]].

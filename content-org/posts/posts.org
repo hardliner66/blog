@@ -1,0 +1,17 @@
+#+title: Blog Post 0
+#+author: Steve Biedermann
+#+date: <2023-02-05 Sat>
+
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+hugo_tags: personal
+
+#+language: en
+
+#+begin_description
+Blog Post 0
+#+end_description
+
+This post will hopefully vanish soon and be replaced with actual content. Stay tuned!
+
+In the meantime you can read more about me on my [[org:../../about][about page]].
