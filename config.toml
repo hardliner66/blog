@@ -100,9 +100,9 @@ menu_footer = [
 integrity = true # setting this to false is useful for developing, should normally be true.
 js_bundle = true # multiple javascript files combined into a single file
 js_switcher = true
-js_search_facade = true # Do not load search until user interaction with search.
+js_search_facade = false # Do not load search until user interaction with search.
 # search library to use, valid values are: false, "elasticlunr", "tinysearch", "stork"
-search_library = "stork"
+search_library = "elasticlunr"
 
 js_search_index = "search_index.en.js" # Separate Always, generated each build
 js_prestyle = "prestyle.js"# Bundleable - used to preload: FontAwesome, Katex, external Google Fonts
