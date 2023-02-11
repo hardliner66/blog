@@ -8,7 +8,7 @@ draft = false
 [taxonomies]
 +++
 
-Hi. My name is Steve, but online I'm more commonly known as [hardliner66](https://github.com/hardliner66), IAmHardliner or **Hardliner**. This is my first blog,
+Hi. My name is Steve, but online I'm more commonly known as [**hardliner66**](https://github.com/hardliner66), IAmHardliner or just hardliner for short. This is my first blog,
 which I want to use to record some of the things floating around in my brain for others to see.
 
 I'm 33 years old and spent the last 18 years learning about software engineering, architecture and programming languages. In this time I learned more than
