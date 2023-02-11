@@ -13,7 +13,8 @@ jobs:
     steps:
     - name: Checkout main
       uses: actions/checkout@v3.0.0
-      submodules: true
+      with:
+        submodules: true
     - name: Run script file
       run: |
          sudo snap install --edge zola
