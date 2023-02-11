@@ -13,16 +13,6 @@ jobs:
     steps:
     - name: Checkout main
       uses: actions/checkout@v3.0.0
-      with:
-        submodules: true
-    - name: Run script file
-      run: |
-         sudo snap install --edge zola
-         zola build
-         npm install
-         npm run abridge
-         zola build
-      shell: bash
     - name: Build and deploy
       uses: shalzz/zola-deploy-action@v0.16.1-1
       env:
