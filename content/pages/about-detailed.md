@@ -1,12 +1,11 @@
 +++
+path = "about-detailed"
 title = "Detailed - About Me"
 author = ["Steve Biedermann"]
 description = "Detailed - About Me"
 date = 2023-02-05T00:00:00+01:00
-tags = ["personal"]
 draft = false
 [taxonomies]
-  tags = ["personal"]
 +++
 
 ## Who Am I? {#who-am-i}

@@ -1,0 +1,9 @@
+#+title:Contact
+#+author: Steve Biedermann
+#+date: <2023-02-05 Sat>
+
+#+hugo_base_dir: ../
+#+hugo_section: pages
+#+hugo_custom_front_matter: :path "contact"
+
+To reach me please use one of the links below.

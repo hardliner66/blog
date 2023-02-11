@@ -1,0 +1,17 @@
+#+title: Privacy Policy
+#+author: Steve Biedermann
+#+date: <2023-02-01 Sat>
+
+#+hugo_base_dir: ../
+#+hugo_section: pages
+#+hugo_custom_front_matter: :path "privacy"
+
+#+begin_description
+Privacy Policy
+#+end_description
+
+* Privacy
+- This site does not store data in the browser to be shared, sent, or sold to third-parties.
+- No personal information is shared, sent, or sold to third-parties.
+
+**Effective Date:** _1st Feb 2023_

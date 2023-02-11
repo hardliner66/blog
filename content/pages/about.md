@@ -1,12 +1,11 @@
 +++
+path = "about"
 title = "About Me"
 author = ["Steve Biedermann"]
 description = "About Me"
 date = 2023-02-05T00:00:00+01:00
-tags = ["personal"]
 draft = false
 [taxonomies]
-  tags = ["personal"]
 +++
 
 Hi. My name is Steve, but online I'm more commonly known as [hardliner66](https://github.com/hardliner66), IAmHardliner or **Hardliner**. This is my first blog,

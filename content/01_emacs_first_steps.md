@@ -4,9 +4,11 @@ author = ["Steve Biedermann"]
 description = "How my first days with Emacs went."
 date = 2023-02-10T00:00:00+01:00
 tags = ["work", "editor"]
+categories = ["tooling"]
 draft = false
 [taxonomies]
   tags = ["work", "editor"]
+  categories = ["tooling"]
 +++
 
 In my time as dev, I used many different editors and IDEs. Notepad for QBasic, Excel Macro Editor for VBA and many more.
