@@ -24,7 +24,7 @@ So if you're like me and always forget to track your time at work, there even is
 it also can sync your changes back to jira. Now I finally don't have to switch software for bookkeeping.
 
 * But what about the config?
-I went with Doom Emacs as my base to speed things up and only added a few small changes to the config so far and I currently I have everything I had in my Neovim config and more.
+I went with Doom Emacs as my base to speed things up and only added a few small changes to the config so far and I currently have most things I had in my Neovim config and more.
 
 * And the coding?
 At work we use Yocto, which is a framework to build custom Linux distributions.

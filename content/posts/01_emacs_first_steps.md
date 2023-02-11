@@ -25,7 +25,7 @@ it also can sync your changes back to jira. Now I finally don't have to switch s
 
 ## But what about the config? {#but-what-about-the-config}
 
-I went with Doom Emacs as my base to speed things up and only added a few small changes to the config so far and I currently I have everything I had in my Neovim config and more.
+I went with Doom Emacs as my base to speed things up and only added a few small changes to the config so far and I currently have most things I had in my Neovim config and more.
 
 
 ## And the coding? {#and-the-coding}
