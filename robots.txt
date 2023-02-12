@@ -1,0 +1,4 @@
+Sitemap: https://blog.hardliner.codes/sitemap.xml
+User-Agent: *
+Allow: /
+Host: https://blog.hardliner.codes
