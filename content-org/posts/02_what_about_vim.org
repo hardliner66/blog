@@ -11,7 +11,7 @@
 What About Vim?
 #+end_description
 
-I talked to a friend of mine (vimposter in teeworlds) about my switch to Emacs and his first question was: But what about vim?
+I talked to a friend of mine about my switch to Emacs and his first question was: But what about vim?
 
 * So, What About Vim?
 I started using [[https://neovim.io/][Neovim]] 3 years ago and have been tweaking my config over time to fit my flow, so, why the sudden change?

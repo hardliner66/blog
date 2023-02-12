@@ -11,7 +11,7 @@ draft = false
   categories = ["tooling"]
 +++
 
-I talked to a friend of mine (vimposter in teeworlds) about my switch to Emacs and his first question was: But what about vim?
+I talked to a friend of mine about my switch to Emacs and his first question was: But what about vim?
 
 
 ## So, What About Vim? {#so-what-about-vim}
