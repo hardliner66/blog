@@ -4,7 +4,7 @@
 
 #+hugo_base_dir: ../../
 #+hugo_section: .
-#+hugo_tags: work editor
+#+hugo_tags: work editor short
 #+hugo_categories: tooling
 
 #+begin_description
