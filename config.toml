@@ -23,8 +23,9 @@ build_search_index = true
 
 [search]                # Options specific to elasticlunr search.
 include_title = true        # include title of page/section in index
-include_description = false # include description of page/section in index
+include_description = true # include description of page/section in index
 include_content = true      # include rendered content of page/section in index
+index_format = "elasticlunr_json"
 # Truncate content at nth character. Useful if index size significantly slows down the site.
 # truncate_content_length = 100
 
@@ -112,7 +113,7 @@ js_theme = "theme.min.js" # Separate Always, comment out if using -auto/-light/-
 js_themeButton = "theme_button.js"# Bundleable
 
 ########## Switcher ########## (comment this block out if NOT using switcher):
-stylesheets = [ "abridge-switcher.css" ] # Orange Automatic Dark/Light Theme based on browser/system preference with switcher
+stylesheets = [ "abridge.css" ] # Orange Automatic Dark/Light Theme based on browser/system preference with switcher
 #stylesheets = [ "abridge-blue-switcher.css" ] # Blue Automatic Night/Light Theme based on browser/system preference with switcher
 #stylesheets = [ "abridge-blueshade-switcher.css" ] # BlueShade Automatic Night/Light Theme based on browser/system preference with switcher
 #stylesheets = [ "abridge-switcher.css", "font.css" ] # include your own font!
