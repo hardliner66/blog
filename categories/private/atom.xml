@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Software Engineering According to Hardliner - private</title>
+    <subtitle>Software Engineering According to Hardliner</subtitle>
+    <link href="https://blog.hardliner.codes/categories/private/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://blog.hardliner.codes"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-10-29T21:33:00+01:00</updated>
+    <id>https://blog.hardliner.codes/categories/private/atom.xml</id>
+    <entry xml:lang="en">
+        <title>What happened in the last months?</title>
+        <published>2023-10-29T21:33:00+01:00</published>
+        <updated>2023-10-29T21:33:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/posts/03-what-happened/" type="text/html"/>
+        <id>https://blog.hardliner.codes/posts/03-what-happened/</id>
+        
+        <content type="html">&lt;p&gt;If you&#x27;re wondering why there was no activity on the blog, let me tell you a bit on the last few months.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-i-didnt-write&quot;&gt;Why I didn&#x27;t write&lt;&#x2F;h2&gt;
+&lt;p&gt;There are plenty of reasons I stopped blogging shortly after, but some of them are quite private.
+The ones I can and want to talk about are basically about work and motivation.&lt;&#x2F;p&gt;
+&lt;p&gt;For quite some while I was struggling with motivation, where I couldn&#x27;t get myself to do anything productive outside of work.
+No programming, no cool projects, no learning, no blog. But in recent weeks I got some of my drive back and I started working
+on a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;organix&#x2F;uFork&quot;&gt;cool project&lt;&#x2F;a&gt;, with really cool people (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.dalnefre.com&#x2F;wp&#x2F;&quot;&gt;who also blog (sometimes)&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-near-future&quot;&gt;The near future&lt;&#x2F;h2&gt;
+&lt;p&gt;Hopefully this keeps up and I can finally start to put my thoughts into text. There&#x27;s a few topics I wanna write about including:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Actor Model&lt;&#x2F;li&gt;
+&lt;li&gt;Programming Language Design&lt;&#x2F;li&gt;
+&lt;li&gt;Hardware Design &amp;amp; FPGAs&lt;&#x2F;li&gt;
+&lt;li&gt;Software Architecture&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;And a few more.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;whats-next&quot;&gt;What&#x27;s next&lt;&#x2F;h2&gt;
+&lt;p&gt;Probably something about actors. A friend of mine keeps nagging me about it, because I always praise it so highly,
+so I think that&#x27;s a good next topic.&lt;&#x2F;p&gt;
+&lt;p&gt;So, I&#x27;ll hopefully be back with some real content soon.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Software Engineering According to Hardliner</title>
+    <subtitle>Software Engineering According to Hardliner</subtitle>
+    <link href="https://blog.hardliner.codes/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://blog.hardliner.codes"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-10-29T21:33:00+01:00</updated>
+    <id>https://blog.hardliner.codes/atom.xml</id>
+    <entry xml:lang="en">
+        <title>What happened in the last months?</title>
+        <published>2023-10-29T21:33:00+01:00</published>
+        <updated>2023-10-29T21:33:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/posts/03-what-happened/" type="text/html"/>
+        <id>https://blog.hardliner.codes/posts/03-what-happened/</id>
+        
+        <content type="html">&lt;p&gt;If you&#x27;re wondering why there was no activity on the blog, let me tell you a bit on the last few months.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-i-didnt-write&quot;&gt;Why I didn&#x27;t write&lt;&#x2F;h2&gt;
+&lt;p&gt;There are plenty of reasons I stopped blogging shortly after, but some of them are quite private.
+The ones I can and want to talk about are basically about work and motivation.&lt;&#x2F;p&gt;
+&lt;p&gt;For quite some while I was struggling with motivation, where I couldn&#x27;t get myself to do anything productive outside of work.
+No programming, no cool projects, no learning, no blog. But in recent weeks I got some of my drive back and I started working
+on a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;organix&#x2F;uFork&quot;&gt;cool project&lt;&#x2F;a&gt;, with really cool people (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.dalnefre.com&#x2F;wp&#x2F;&quot;&gt;who also blog (sometimes)&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-near-future&quot;&gt;The near future&lt;&#x2F;h2&gt;
+&lt;p&gt;Hopefully this keeps up and I can finally start to put my thoughts into text. There&#x27;s a few topics I wanna write about including:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Actor Model&lt;&#x2F;li&gt;
+&lt;li&gt;Programming Language Design&lt;&#x2F;li&gt;
+&lt;li&gt;Hardware Design &amp;amp; FPGAs&lt;&#x2F;li&gt;
+&lt;li&gt;Software Architecture&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;And a few more.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;whats-next&quot;&gt;What&#x27;s next&lt;&#x2F;h2&gt;
+&lt;p&gt;Probably something about actors. A friend of mine keeps nagging me about it, because I always praise it so highly,
+so I think that&#x27;s a good next topic.&lt;&#x2F;p&gt;
+&lt;p&gt;So, I&#x27;ll hopefully be back with some real content soon.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What About Vim?</title>
+        <published>2023-02-12T21:13:00+01:00</published>
+        <updated>2023-02-12T21:13:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/posts/02-what-about-vim/" type="text/html"/>
+        <id>https://blog.hardliner.codes/posts/02-what-about-vim/</id>
+        
+        <content type="html">&lt;p&gt;I talked to a friend of mine about my switch to Emacs and his first question was: But what about vim?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;so-what-about-vim&quot;&gt;So, What About Vim?&lt;&#x2F;h2&gt;
+&lt;p&gt;I started using &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;neovim.io&#x2F;&quot;&gt;Neovim&lt;&#x2F;a&gt; 3 years ago and have been tweaking my config over time to fit my flow, so, why the sudden change?
+Well, it&#x27;s pretty simple to be honest, I like to have everything in one place. Notes, timetracking, editing. The less I have to leave my normal environment,
+the less I lose my focus.&lt;&#x2F;p&gt;
+&lt;p&gt;My ADHD brain gets distracted easily, which makes it hard to remember all the boring things like logging my time at work or keeping track of certain information.
+In the past I used many tools to help me with my daily tasks, but having them separate was enough for me to forget about them. Having everything in one single
+tool makes it way simpler to develop a proper workflow, which incorporates all my needs at the same time in a consistent way.&lt;&#x2F;p&gt;
+&lt;p&gt;For me, this is basically &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;orgmode.org&#x2F;&quot;&gt;org-mode&lt;&#x2F;a&gt;. It handles my note taking with &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.orgroam.com&#x2F;&quot;&gt;org-roam&lt;&#x2F;a&gt;, which also gives me the tools to visualize how those notes link together.
+My timetracking issue gets solved by &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ahungry&#x2F;org-jira&quot;&gt;org-jira&lt;&#x2F;a&gt;, which allows me to interact with Jira issues, without leaving my editor. And all the knowledge about org-mode I
+use at work, I can re-use at home when writing this blog.&lt;&#x2F;p&gt;
+&lt;p&gt;Everything else seems to work really well for me too. I can still use my movement, thanks to evil-mode.
+Emacs also handles syntax highlighting and stuff like `jump to definition` or `find references`.&lt;&#x2F;p&gt;
+&lt;p&gt;So for now, it&#x27;s gonna be my editor of choice for most of my work until I hit a roadblock. Then I&#x27;ll either move back to vim or try one of the many different
+editors out there. Maybe I&#x27;ll someday try to write my own. But thats something for the future.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;is-vim-dead&quot;&gt;Is Vim Dead?&lt;&#x2F;h2&gt;
+&lt;p&gt;Not yet. Muscle memory still makes me open Neovim most of the time. Especially for smaller edits and because I have an alias `v` which is really fast to type.
+I probably will continue using neovim for smaller things, but I probably rework my config to be way smaller and simpler, as most things aren&#x27;t needed anymore.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>First Steps in Emacs</title>
+        <published>2023-02-10T00:00:00+01:00</published>
+        <updated>2023-02-10T00:00:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/posts/01-emacs-first-steps/" type="text/html"/>
+        <id>https://blog.hardliner.codes/posts/01-emacs-first-steps/</id>
+        
+        <content type="html">&lt;p&gt;In my time as dev, I used many different editors and IDEs. Notepad for QBasic, Excel Macro Editor for VBA and many more.
+A few years ago, I switched to Neovim and thought that&#x27;s it, I thought I found my favorite text editor, but oh boy was I wrong.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-emacs&quot;&gt;Why Emacs?&lt;&#x2F;h2&gt;
+&lt;p&gt;So, why Emacs you might ask and what&#x27;s so great about it? Well, I want to learn coding in Common Lisp and there is almost no way around Emacs for that.
+But it&#x27;s not only Lisp I was interested in, I also wanted to try out org-mode and let me tell you, org-mode alone is worth the hassle of learning a new editor.
+You can use it for anything from note taking, over blogging (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hardliner66&#x2F;blog&quot;&gt;this blog&lt;&#x2F;a&gt; is written in org-mode) to full blown time tracking.&lt;&#x2F;p&gt;
+&lt;p&gt;So if you&#x27;re like me and always forget to track your time at work, there even is an org-mode plugin called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ahungry&#x2F;org-jira&quot;&gt;org-jira&lt;&#x2F;a&gt;, which can not only fetch your issues from a jira server,
+it also can sync your changes back to jira. Now I finally don&#x27;t have to switch software for bookkeeping.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;but-what-about-the-config&quot;&gt;But what about the config?&lt;&#x2F;h2&gt;
+&lt;p&gt;I went with Doom Emacs as my base to speed things up and only added a few small changes to the config so far and I currently have most things I had in my Neovim config and more.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;and-the-coding&quot;&gt;And the coding?&lt;&#x2F;h2&gt;
+&lt;p&gt;At work we use Yocto, which is a framework to build custom Linux distributions.
+One of the major drawbacks of it is, that it uses its own build system on top of all the build systems that the packages use.
+Neovim LSP doesn&#x27;t like that at all. Even COC struggled most of the time. Emacs gets at least the basics somewhat working.&lt;&#x2F;p&gt;
+&lt;p&gt;So, it&#x27;s still not perfect, but it&#x27;s better than it was before.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;should-you-change-too&quot;&gt;Should you change too?&lt;&#x2F;h2&gt;
+&lt;p&gt;Well, probably not. If you&#x27;re happy with your editor or have special requirements, Emacs might not be the tool for you.
+Its graphic nature means, you can&#x27;t just run it on a terminal and it&#x27;s much more heavy weight than a basic Neovim setup. Which might be a problem for some.&lt;&#x2F;p&gt;
+&lt;p&gt;If you&#x27;re still searching for the right editor for you or you&#x27;re curious about org-mode (you should be) then give it at least a try.
+Install Doom Emacs and start using org-mode. And if org-mode is too much at first, try &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.orgroam.com&#x2F;&quot;&gt;org-roam&lt;&#x2F;a&gt; instead.
+Org-roam gives you a nice local knowledgebase system, which can also show you back-links and generate nice graphs.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s only been a week since I started using it, so I can&#x27;t give a good final conclusion yet, but for now, I&#x27;m impressed at the things Emacs lets me do with less than a week of experience.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Detailed - About Me</title>
+        <published>2023-02-05T00:00:00+01:00</published>
+        <updated>2023-02-05T00:00:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/about-detailed/" type="text/html"/>
+        <id>https://blog.hardliner.codes/about-detailed/</id>
+        
+        <content type="html">&lt;h2 id=&quot;who-am-i&quot;&gt;Who Am I?&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;career&quot;&gt;Career&lt;&#x2F;h3&gt;
+&lt;p&gt;I&#x27;m a self-taught software engineer who started programming when I was 15 years old. First I was just playing around with &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;de.wikipedia.org&#x2F;wiki&#x2F;QBasic&quot;&gt;QBasic&lt;&#x2F;a&gt;
+and then I moved on to &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Visual_Basic_for_Applications&quot;&gt;VBA&lt;&#x2F;a&gt; in Microsoft Excel and to &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Visual_Basic_(.NET)&quot;&gt;VB.NET&lt;&#x2F;a&gt; after that. Sadly my first job had nothing to do with programming.
+I was doing an apprenticeship as a plastics technician.&lt;&#x2F;p&gt;
+&lt;p&gt;During my training I still kept learning VB.NET in my free time, but my first chance at a programming job I got years later.
+I was an intern in a company and overheard them talk about a buggy VBA script they had. I offered my help and managed to fix the bug.&lt;&#x2F;p&gt;
+&lt;p&gt;A few days after the company offered me a job, because they needed a VBA programmer for an upcoming project. Using VBA wasn&#x27;t my dream
+but it still was a chance that I couldn&#x27;t afford to miss. Finally a programming job on my cv.&lt;&#x2F;p&gt;
+&lt;p&gt;The job was implementing CAD-stuff in VBA, but I could use my VB.NET knowledge as well. I even got the chance to start learning &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;C_Sharp_(programming_language)&quot;&gt;C#&lt;&#x2F;a&gt;.
+Sadly the company culture was really draining, ending in me having a mental breakdown, which caused me to leave the company.&lt;&#x2F;p&gt;
+&lt;p&gt;A few months later, I got scouted for a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Delphi_(software)&quot;&gt;Delphi&lt;&#x2F;a&gt; job, building customer software for ISPs. I stayed at this company for 7 years,
+working on everything from desktop software, to architecture, to software interfaces and much more. I also found my love for
+programming languages and custom tools.&lt;&#x2F;p&gt;
+&lt;p&gt;While I worked there I learned &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;D_(programming_language)&quot;&gt;D&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;C%2B%2B&quot;&gt;C++&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Go_(programming_language)&quot;&gt;Go&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;TypeScript&quot;&gt;TypeScript&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Rust_(programming_language)&quot;&gt;Rust&lt;&#x2F;a&gt; and a few more. I wrote multiple tools in all of these languages.
+Logging tools, http api mocks, build automation, simple parsers and more.&lt;&#x2F;p&gt;
+&lt;p&gt;After 7 years the company got bought, which resulted in a shift in development I wasn&#x27;t happy about. After a few colleagues and even
+our CEO quit, I decided to do the same.&lt;&#x2F;p&gt;
+&lt;p&gt;Now I&#x27;m working at a company in the solar sector that uses C++ as it&#x27;s main language.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;my-love-for-languages&quot;&gt;My Love for Languages&lt;&#x2F;h3&gt;
+&lt;p&gt;All those languages I mentioned are just the main ones I used for most of my implementations, but I learned many more. In total I learned
+more than 25 programming languages up to the point, where could do minor projects in them. I did this to broaden my horizon and to see
+how other languages tackle problems, in order to apply some of those techniques where I saw fit.&lt;&#x2F;p&gt;
+&lt;p&gt;I rewrote a central piece of delphi in a part of our product in functional style, which removed a few houndred lines of unnecessary boilerplate
+and made reasoning about the code and finding bugs a lot easier.&lt;&#x2F;p&gt;
+&lt;p&gt;From all the languages I&#x27;ve learned, Rust is currently my favorite, because it let&#x27;s me focus on what I want to do, instead of focusing about
+all the accidental complexity that comes with using other languages.&lt;&#x2F;p&gt;
+&lt;p&gt;Here are some of my favorite features from all the languages I learned:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Feature&lt;&#x2F;th&gt;&lt;th&gt;Language&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;First Class Functions&lt;&#x2F;td&gt;&lt;td&gt;Most Modern Languages&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;First Class Modules&lt;&#x2F;td&gt;&lt;td&gt;OCaml&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Pattern Matching&lt;&#x2F;td&gt;&lt;td&gt;Rust&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Iterators&lt;&#x2F;td&gt;&lt;td&gt;Rust&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Image Based Development&lt;&#x2F;td&gt;&lt;td&gt;Lisp, Smalltalk&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Repl Based Development, Live Coding&lt;&#x2F;td&gt;&lt;td&gt;Lisp&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Macros&lt;&#x2F;td&gt;&lt;td&gt;Lisp&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Meta Object Protocol&lt;&#x2F;td&gt;&lt;td&gt;Lisp&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Homoiconicity&lt;&#x2F;td&gt;&lt;td&gt;Lisp, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.red-lang.org&#x2F;&quot;&gt;Red&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Dependent Types&lt;&#x2F;td&gt;&lt;td&gt;Idris&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Refinement Types&lt;&#x2F;td&gt;&lt;td&gt;Ada&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Contract Driven Development&lt;&#x2F;td&gt;&lt;td&gt;Ada&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Actors&lt;&#x2F;td&gt;&lt;td&gt;Erlang, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.ponylang.io&#x2F;&quot;&gt;Pony&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Term Rewriting&lt;&#x2F;td&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.txl.ca&#x2F;&quot;&gt;TXL&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;System Modeling&lt;&#x2F;td&gt;&lt;td&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;TLA%2B&quot;&gt;TLA+, PlusCal&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;p-org&#x2F;P&quot;&gt;P&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;other-hobbies&quot;&gt;Other Hobbies&lt;&#x2F;h3&gt;
+&lt;p&gt;When I&#x27;m not programming I&#x27;m spending my time with gaming, reading or DMing for my D&amp;amp;D group.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>About Me</title>
+        <published>2023-02-05T00:00:00+01:00</published>
+        <updated>2023-02-05T00:00:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/about/" type="text/html"/>
+        <id>https://blog.hardliner.codes/about/</id>
+        
+        <content type="html">&lt;p&gt;Hi. My name is Steve, but online I&#x27;m more commonly known as &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hardliner66&quot;&gt;&lt;strong&gt;hardliner66&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;, IAmHardliner or just hardliner for short. This is my first blog,
+which I want to use to record some of the things floating around in my brain for others to see.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m 33 years old and spent the last 18 years learning about software engineering, architecture and programming languages. In this time I learned more than
+25 programming languages.&lt;&#x2F;p&gt;
+&lt;p&gt;My current main language is Rust and I&#x27;m currently trying to learn lisp.&lt;&#x2F;p&gt;
+&lt;p&gt;For a more detailed backstory click &lt;a href=&quot;..&#x2F;about-detailed&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Contact</title>
+        <published>2023-02-05T00:00:00+01:00</published>
+        <updated>2023-02-05T00:00:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/contact/" type="text/html"/>
+        <id>https://blog.hardliner.codes/contact/</id>
+        
+        <content type="html">&lt;p&gt;To reach me please use one of the links below.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Privacy Policy</title>
+        <published>2023-02-01T00:00:00+01:00</published>
+        <updated>2023-02-01T00:00:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/privacy/" type="text/html"/>
+        <id>https://blog.hardliner.codes/privacy/</id>
+        
+        <content type="html">&lt;h2 id=&quot;privacy&quot;&gt;Privacy&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This site does not store data in the browser to be shared, sent, or sold to third-parties.&lt;&#x2F;li&gt;
+&lt;li&gt;No personal information is shared, sent, or sold to third-parties.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Effective Date:&lt;&#x2F;strong&gt;&lt;&#x2F;strong&gt; &lt;span class=&quot;underline&quot;&gt;1st Feb 2023&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

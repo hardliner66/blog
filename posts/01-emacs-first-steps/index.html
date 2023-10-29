@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <script src="https://blog.hardliner.codes/js/theme.min.js" integrity="sha384-pb++s6uBRKaQv+iAXpgA/H3IlpLZdO14tTwuCI7uXmz4aaZdByoCcM+6BhynMq/1"></script>
+  <link rel="stylesheet" href="https://blog.hardliner.codes/abridge.css?h=7b9befb59efac2efd027" />
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="base" content="https://blog.hardliner.codes" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="theme-color" content="#333333" />
+  <meta name="msapplication-TileColor" content="#333333" />
+  <link rel="mask-icon" href="https://blog.hardliner.codes/safari-pinned-tab.svg" color="#ff9900" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://blog.hardliner.codes/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://blog.hardliner.codes/logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://blog.hardliner.codes/logo.png" />
+  <link rel="alternate" type="application/atom+xml" title="Software Engineering According to Hardliner Atom/RSS Feed" href="https://blog.hardliner.codes/atom.xml" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <title>First Steps in Emacs | Software Engineering According to Hardliner</title>
+  <meta name="author" content="Steve Biedermann" />
+  <meta name="copyright" content="Software Engineering According to Hardliner" />
+  <meta name="description" content="How my first days with Emacs went." />
+  <link rel="canonical" href="https://blog.hardliner.codes/posts/01-emacs-first-steps/" />
+  <meta name="keywords" content="programming,dev,software,architecture" />
+  <meta property="og:url" content="https://blog.hardliner.codes/posts/01-emacs-first-steps/" />
+  <meta name="twitter:url" content="https://blog.hardliner.codes/posts/01-emacs-first-steps/" />
+  <meta property="og:description" content="How my first days with Emacs went." />
+  <meta name="twitter:description" content="How my first days with Emacs went." />
+  <meta property="og:title" content="First Steps in Emacs | Software Engineering According to Hardliner" />
+  <meta name="twitter:title" content="First Steps in Emacs | Software Engineering According to Hardliner" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://blog.hardliner.codes/logo.png" />
+  <meta property="og:image" content="https://blog.hardliner.codes/logo.png" />
+  <meta property="og:site_name" content="Software Engineering According to Hardliner" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:updated_time" content="2023-02-10" />
+  <script defer src="https://blog.hardliner.codes/js/abridge_nopwa.min.js?h=8442828faf62aeeb06cc" integrity="sha384-fe1/px0iuiAytN9SlS0F8uHXKk3P7UZwQWG+PDkhgP0ME96uFxSD2gOcTEG6xyrx"></script>
+  <noscript><link rel="stylesheet" href="https://blog.hardliner.codes/nojs.css" /></noscript>
+</head>
+<body>
+  <header>
+    <nav>
+      <div><h1><a href="https://blog.hardliner.codes" title="Software Engineering According to Hardliner"><img src="https://blog.hardliner.codes/logo.png" alt="Hardliners Logo" width="150" height="147" /></a></h1></div>
+      <div>
+
+        <div>
+          <ul><li><a href="https://blog.hardliner.codes/about/"> About </a></li><li><a href="https://blog.hardliner.codes/posts/"> Posts </a></li><li><a href="https://blog.hardliner.codes/categories/"> Categories </a></li><li><a href="https://blog.hardliner.codes/tags/"> Tags </a></li><li><i type="reset" id="mode" class="js svgs adjust"></i></ul>
+        </div>
+
+        <div>
+          <div>
+            <form autocomplete=off class="js" name="goSearch" id="searchbox">
+              <div class="searchd">
+                <input id="searchinput" type="text" placeholder="Search" title="Search" />
+                <button type="submit" title="Search" class="svgs search"></button>
+              </div>
+              <div class="results"><div id="suggestions"></div></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <div>Software Engineering According to Hardliner</div>
+  </header>
+  <main>
+    <article>
+      <h1><a href="https://blog.hardliner.codes/posts/01-emacs-first-steps/">First Steps in Emacs</a></h1>
+
+      <span class="s95"> Steve Biedermann<span class="hpad"> </span> February 10, 2023<span class="hpad"> </span> [<a href="https://blog.hardliner.codes/categories/tooling/">tooling</a>] #<a href="https://blog.hardliner.codes/tags/work/">work</a>  #<a href="https://blog.hardliner.codes/tags/editor/">editor</a>  #<a href="https://blog.hardliner.codes/tags/short/">short</a> </span>
+
+    
+
+
+<p>In my time as dev, I used many different editors and IDEs. Notepad for QBasic, Excel Macro Editor for VBA and many more.
+A few years ago, I switched to Neovim and thought that's it, I thought I found my favorite text editor, but oh boy was I wrong.</p>
+<h2 id="why-emacs">Why Emacs?</h2>
+<p>So, why Emacs you might ask and what's so great about it? Well, I want to learn coding in Common Lisp and there is almost no way around Emacs for that.
+But it's not only Lisp I was interested in, I also wanted to try out org-mode and let me tell you, org-mode alone is worth the hassle of learning a new editor.
+You can use it for anything from note taking, over blogging (<a rel="noopener" target="_blank" href="https://github.com/hardliner66/blog">this blog</a> is written in org-mode) to full blown time tracking.</p>
+<p>So if you're like me and always forget to track your time at work, there even is an org-mode plugin called <a rel="noopener" target="_blank" href="https://github.com/ahungry/org-jira">org-jira</a>, which can not only fetch your issues from a jira server,
+it also can sync your changes back to jira. Now I finally don't have to switch software for bookkeeping.</p>
+<h2 id="but-what-about-the-config">But what about the config?</h2>
+<p>I went with Doom Emacs as my base to speed things up and only added a few small changes to the config so far and I currently have most things I had in my Neovim config and more.</p>
+<h2 id="and-the-coding">And the coding?</h2>
+<p>At work we use Yocto, which is a framework to build custom Linux distributions.
+One of the major drawbacks of it is, that it uses its own build system on top of all the build systems that the packages use.
+Neovim LSP doesn't like that at all. Even COC struggled most of the time. Emacs gets at least the basics somewhat working.</p>
+<p>So, it's still not perfect, but it's better than it was before.</p>
+<h2 id="should-you-change-too">Should you change too?</h2>
+<p>Well, probably not. If you're happy with your editor or have special requirements, Emacs might not be the tool for you.
+Its graphic nature means, you can't just run it on a terminal and it's much more heavy weight than a basic Neovim setup. Which might be a problem for some.</p>
+<p>If you're still searching for the right editor for you or you're curious about org-mode (you should be) then give it at least a try.
+Install Doom Emacs and start using org-mode. And if org-mode is too much at first, try <a rel="noopener" target="_blank" href="https://www.orgroam.com/">org-roam</a> instead.
+Org-roam gives you a nice local knowledgebase system, which can also show you back-links and generate nice graphs.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>It's only been a week since I started using it, so I can't give a good final conclusion yet, but for now, I'm impressed at the things Emacs lets me do with less than a week of experience.</p>
+
+      <nav>
+        <div>
+          <a href="https://blog.hardliner.codes/posts/02-what-about-vim/">&#8249; What About Vim?</a>
+        </div>
+        <div>
+        </div>
+      </nav>
+    </article>
+  </main>
+  <footer>
+    <hr />
+    <div class="c">
+      <nav><div></div></nav>
+      <p class="s90"> &copy; <span id="year">2023</span> Software Engineering According to Hardliner</p>
+      <nav>
+        <a class="s90" href="https://blog.hardliner.codes/about/"> About </a>
+        <a class="s90" href="https://blog.hardliner.codes/contact/"> Contact </a>
+        <a class="s90" href="https://blog.hardliner.codes/privacy/"> Privacy </a>
+        <a class="s90" href="https://blog.hardliner.codes/sitemap.xml" target="_blank"> Sitemap </a>
+      </nav>
+      <p class="s90">Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> & <a href="https://github.com/jieiku/abridge/" target="_blank">Abridge</a></p>
+    </div>
+  </footer><span class="topout">
+<span class="topleft"> </span><a href="#" class="top" title="Back to Top"><i class="svgs svgh angu"></i></a>
+</span>
+</body>
+</html>

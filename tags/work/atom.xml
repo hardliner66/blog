@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Software Engineering According to Hardliner - work</title>
+    <subtitle>Software Engineering According to Hardliner</subtitle>
+    <link href="https://blog.hardliner.codes/tags/work/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://blog.hardliner.codes"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-10-29T21:33:00+01:00</updated>
+    <id>https://blog.hardliner.codes/tags/work/atom.xml</id>
+    <entry xml:lang="en">
+        <title>What happened in the last months?</title>
+        <published>2023-10-29T21:33:00+01:00</published>
+        <updated>2023-10-29T21:33:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/posts/03-what-happened/" type="text/html"/>
+        <id>https://blog.hardliner.codes/posts/03-what-happened/</id>
+        
+        <content type="html">&lt;p&gt;If you&#x27;re wondering why there was no activity on the blog, let me tell you a bit on the last few months.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-i-didnt-write&quot;&gt;Why I didn&#x27;t write&lt;&#x2F;h2&gt;
+&lt;p&gt;There are plenty of reasons I stopped blogging shortly after, but some of them are quite private.
+The ones I can and want to talk about are basically about work and motivation.&lt;&#x2F;p&gt;
+&lt;p&gt;For quite some while I was struggling with motivation, where I couldn&#x27;t get myself to do anything productive outside of work.
+No programming, no cool projects, no learning, no blog. But in recent weeks I got some of my drive back and I started working
+on a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;organix&#x2F;uFork&quot;&gt;cool project&lt;&#x2F;a&gt;, with really cool people (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.dalnefre.com&#x2F;wp&#x2F;&quot;&gt;who also blog (sometimes)&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-near-future&quot;&gt;The near future&lt;&#x2F;h2&gt;
+&lt;p&gt;Hopefully this keeps up and I can finally start to put my thoughts into text. There&#x27;s a few topics I wanna write about including:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Actor Model&lt;&#x2F;li&gt;
+&lt;li&gt;Programming Language Design&lt;&#x2F;li&gt;
+&lt;li&gt;Hardware Design &amp;amp; FPGAs&lt;&#x2F;li&gt;
+&lt;li&gt;Software Architecture&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;And a few more.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;whats-next&quot;&gt;What&#x27;s next&lt;&#x2F;h2&gt;
+&lt;p&gt;Probably something about actors. A friend of mine keeps nagging me about it, because I always praise it so highly,
+so I think that&#x27;s a good next topic.&lt;&#x2F;p&gt;
+&lt;p&gt;So, I&#x27;ll hopefully be back with some real content soon.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What About Vim?</title>
+        <published>2023-02-12T21:13:00+01:00</published>
+        <updated>2023-02-12T21:13:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/posts/02-what-about-vim/" type="text/html"/>
+        <id>https://blog.hardliner.codes/posts/02-what-about-vim/</id>
+        
+        <content type="html">&lt;p&gt;I talked to a friend of mine about my switch to Emacs and his first question was: But what about vim?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;so-what-about-vim&quot;&gt;So, What About Vim?&lt;&#x2F;h2&gt;
+&lt;p&gt;I started using &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;neovim.io&#x2F;&quot;&gt;Neovim&lt;&#x2F;a&gt; 3 years ago and have been tweaking my config over time to fit my flow, so, why the sudden change?
+Well, it&#x27;s pretty simple to be honest, I like to have everything in one place. Notes, timetracking, editing. The less I have to leave my normal environment,
+the less I lose my focus.&lt;&#x2F;p&gt;
+&lt;p&gt;My ADHD brain gets distracted easily, which makes it hard to remember all the boring things like logging my time at work or keeping track of certain information.
+In the past I used many tools to help me with my daily tasks, but having them separate was enough for me to forget about them. Having everything in one single
+tool makes it way simpler to develop a proper workflow, which incorporates all my needs at the same time in a consistent way.&lt;&#x2F;p&gt;
+&lt;p&gt;For me, this is basically &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;orgmode.org&#x2F;&quot;&gt;org-mode&lt;&#x2F;a&gt;. It handles my note taking with &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.orgroam.com&#x2F;&quot;&gt;org-roam&lt;&#x2F;a&gt;, which also gives me the tools to visualize how those notes link together.
+My timetracking issue gets solved by &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ahungry&#x2F;org-jira&quot;&gt;org-jira&lt;&#x2F;a&gt;, which allows me to interact with Jira issues, without leaving my editor. And all the knowledge about org-mode I
+use at work, I can re-use at home when writing this blog.&lt;&#x2F;p&gt;
+&lt;p&gt;Everything else seems to work really well for me too. I can still use my movement, thanks to evil-mode.
+Emacs also handles syntax highlighting and stuff like `jump to definition` or `find references`.&lt;&#x2F;p&gt;
+&lt;p&gt;So for now, it&#x27;s gonna be my editor of choice for most of my work until I hit a roadblock. Then I&#x27;ll either move back to vim or try one of the many different
+editors out there. Maybe I&#x27;ll someday try to write my own. But thats something for the future.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;is-vim-dead&quot;&gt;Is Vim Dead?&lt;&#x2F;h2&gt;
+&lt;p&gt;Not yet. Muscle memory still makes me open Neovim most of the time. Especially for smaller edits and because I have an alias `v` which is really fast to type.
+I probably will continue using neovim for smaller things, but I probably rework my config to be way smaller and simpler, as most things aren&#x27;t needed anymore.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>First Steps in Emacs</title>
+        <published>2023-02-10T00:00:00+01:00</published>
+        <updated>2023-02-10T00:00:00+01:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://blog.hardliner.codes/posts/01-emacs-first-steps/" type="text/html"/>
+        <id>https://blog.hardliner.codes/posts/01-emacs-first-steps/</id>
+        
+        <content type="html">&lt;p&gt;In my time as dev, I used many different editors and IDEs. Notepad for QBasic, Excel Macro Editor for VBA and many more.
+A few years ago, I switched to Neovim and thought that&#x27;s it, I thought I found my favorite text editor, but oh boy was I wrong.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-emacs&quot;&gt;Why Emacs?&lt;&#x2F;h2&gt;
+&lt;p&gt;So, why Emacs you might ask and what&#x27;s so great about it? Well, I want to learn coding in Common Lisp and there is almost no way around Emacs for that.
+But it&#x27;s not only Lisp I was interested in, I also wanted to try out org-mode and let me tell you, org-mode alone is worth the hassle of learning a new editor.
+You can use it for anything from note taking, over blogging (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hardliner66&#x2F;blog&quot;&gt;this blog&lt;&#x2F;a&gt; is written in org-mode) to full blown time tracking.&lt;&#x2F;p&gt;
+&lt;p&gt;So if you&#x27;re like me and always forget to track your time at work, there even is an org-mode plugin called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ahungry&#x2F;org-jira&quot;&gt;org-jira&lt;&#x2F;a&gt;, which can not only fetch your issues from a jira server,
+it also can sync your changes back to jira. Now I finally don&#x27;t have to switch software for bookkeeping.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;but-what-about-the-config&quot;&gt;But what about the config?&lt;&#x2F;h2&gt;
+&lt;p&gt;I went with Doom Emacs as my base to speed things up and only added a few small changes to the config so far and I currently have most things I had in my Neovim config and more.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;and-the-coding&quot;&gt;And the coding?&lt;&#x2F;h2&gt;
+&lt;p&gt;At work we use Yocto, which is a framework to build custom Linux distributions.
+One of the major drawbacks of it is, that it uses its own build system on top of all the build systems that the packages use.
+Neovim LSP doesn&#x27;t like that at all. Even COC struggled most of the time. Emacs gets at least the basics somewhat working.&lt;&#x2F;p&gt;
+&lt;p&gt;So, it&#x27;s still not perfect, but it&#x27;s better than it was before.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;should-you-change-too&quot;&gt;Should you change too?&lt;&#x2F;h2&gt;
+&lt;p&gt;Well, probably not. If you&#x27;re happy with your editor or have special requirements, Emacs might not be the tool for you.
+Its graphic nature means, you can&#x27;t just run it on a terminal and it&#x27;s much more heavy weight than a basic Neovim setup. Which might be a problem for some.&lt;&#x2F;p&gt;
+&lt;p&gt;If you&#x27;re still searching for the right editor for you or you&#x27;re curious about org-mode (you should be) then give it at least a try.
+Install Doom Emacs and start using org-mode. And if org-mode is too much at first, try &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.orgroam.com&#x2F;&quot;&gt;org-roam&lt;&#x2F;a&gt; instead.
+Org-roam gives you a nice local knowledgebase system, which can also show you back-links and generate nice graphs.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s only been a week since I started using it, so I can&#x27;t give a good final conclusion yet, but for now, I&#x27;m impressed at the things Emacs lets me do with less than a week of experience.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
