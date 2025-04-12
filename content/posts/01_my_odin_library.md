@@ -20,7 +20,7 @@ This project is the result of me literally [nerd sniping](https://xkcd.com/356/)
 **TLDR**: Its basically collection of Odin modules that I implemented to make my life easier,
 while working on my [game](https://iamhardliner.itch.io/black-vs-white).
 
-The code can be found here: https://github.com/hardliner66/sol
+The code can be found here: [https://github.com/hardliner66/sol](https://github.com/hardliner66/sol)
 
 - [Modules](#modules)
   - [iter](#iter)
