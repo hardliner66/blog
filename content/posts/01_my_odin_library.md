@@ -22,10 +22,10 @@ while working on my [game](https://iamhardliner.itch.io/black-vs-white).
 
 - [Modules](#modules)
   - [iter](#iter)
-  - [fixed\_dynamic\_array](#fixed_dynamic_array)
-    - [fixed\_dynamic\_array/iter](#fixed_dynamic_arrayiter)
-  - [expression\_evaluator](#expression_evaluator)
-  - [stack\_tracking\_allocator](#stack_tracking_allocator)
+  - [fixed\_dynamic\_array](#fixed-dynamic-array)
+    - [fixed\_dynamic\_array/iter](#fixed-dynamic-array-iter)
+  - [expression\_evaluator](#expression-evaluator)
+  - [stack\_tracking\_allocator](#stack-tracking-allocator)
   - [opaque](#opaque)
 - [History](#history)
 
