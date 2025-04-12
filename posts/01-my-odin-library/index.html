@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <script src="https://blog.hardliner.codes/js/theme.min.js" integrity="sha384-pb++s6uBRKaQv+iAXpgA/H3IlpLZdO14tTwuCI7uXmz4aaZdByoCcM+6BhynMq/1"></script>
+  <link rel="stylesheet" href="https://blog.hardliner.codes/abridge.css?h=7b9befb59efac2efd027" />
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="base" content="https://blog.hardliner.codes" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="theme-color" content="#333333" />
+  <meta name="msapplication-TileColor" content="#333333" />
+  <link rel="mask-icon" href="https://blog.hardliner.codes/safari-pinned-tab.svg" color="#ff9900" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://blog.hardliner.codes/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://blog.hardliner.codes/logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://blog.hardliner.codes/logo.png" />
+  <link rel="alternate" type="application/atom+xml" title="Software Engineering According to Hardliner Atom/RSS Feed" href="https://blog.hardliner.codes/atom.xml" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <title>Introducing SOL | Software Engineering According to Hardliner</title>
+  <meta name="author" content="Steve Biedermann" />
+  <meta name="copyright" content="Software Engineering According to Hardliner" />
+  <meta name="description" content="Introducing the helper library I made for the game I&#x27;m working on, what it contains and why it exists." />
+  <link rel="canonical" href="https://blog.hardliner.codes/posts/01-my-odin-library/" />
+  <meta name="keywords" content="programming,dev,software,architecture" />
+  <meta property="og:url" content="https://blog.hardliner.codes/posts/01-my-odin-library/" />
+  <meta name="twitter:url" content="https://blog.hardliner.codes/posts/01-my-odin-library/" />
+  <meta property="og:description" content="Introducing the helper library I made for the game I&#x27;m working on, what it contains and why it exists." />
+  <meta name="twitter:description" content="Introducing the helper library I made for the game I&#x27;m working on, what it contains and why it exists." />
+  <meta property="og:title" content="Introducing SOL | Software Engineering According to Hardliner" />
+  <meta name="twitter:title" content="Introducing SOL | Software Engineering According to Hardliner" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://blog.hardliner.codes/logo.png" />
+  <meta property="og:image" content="https://blog.hardliner.codes/logo.png" />
+  <meta property="og:site_name" content="Software Engineering According to Hardliner" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:updated_time" content="2025-04-11" />
+  <script defer src="https://blog.hardliner.codes/js/abridge_nopwa.min.js?h=8442828faf62aeeb06cc" integrity="sha384-fe1/px0iuiAytN9SlS0F8uHXKk3P7UZwQWG+PDkhgP0ME96uFxSD2gOcTEG6xyrx"></script>
+  <noscript><link rel="stylesheet" href="https://blog.hardliner.codes/nojs.css" /></noscript>
+</head>
+<body>
+  <header>
+    <nav>
+      <div><h1><a href="https://blog.hardliner.codes" title="Software Engineering According to Hardliner"><img src="https://blog.hardliner.codes/logo.png" alt="Hardliners Logo" width="150" height="147" /></a></h1></div>
+      <div>
+
+        <div>
+          <ul><li><a href="https://blog.hardliner.codes/about/"> About </a></li><li><a href="https://blog.hardliner.codes/posts/"> Posts </a></li><li><a href="https://blog.hardliner.codes/categories/"> Categories </a></li><li><a href="https://blog.hardliner.codes/tags/"> Tags </a></li><li><i type="reset" id="mode" class="js svgs adjust"></i></ul>
+        </div>
+
+        <div>
+          <div>
+            <form autocomplete=off class="js" name="goSearch" id="searchbox">
+              <div class="searchd">
+                <input id="searchinput" type="text" placeholder="Search" title="Search" />
+                <button type="submit" title="Search" class="svgs search"></button>
+              </div>
+              <div class="results"><div id="suggestions"></div></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <div>Software Engineering According to Hardliner</div>
+  </header>
+  <main>
+    <article>
+      <h1><a href="https://blog.hardliner.codes/posts/01-my-odin-library/">Introducing SOL</a></h1>
+
+      <span class="s95"> Steve Biedermann<span class="hpad"> </span> April 11, 2025<span class="hpad"> </span> [<a href="https://blog.hardliner.codes/categories/writeup/">writeup</a><a href="https://blog.hardliner.codes/categories/coding/">coding</a>] #<a href="https://blog.hardliner.codes/tags/odin/">odin</a>  #<a href="https://blog.hardliner.codes/tags/gamedev/">gamedev</a> </span>
+
+    
+
+
+<h1 id="introducing-sol">Introducing SOL</h1>
+<p>This project is the result of me literally <a rel="noopener" target="_blank" href="https://xkcd.com/356/">nerd sniping</a> myself.</p>
+<p><strong>TLDR</strong>: Its basically collection of Odin modules that I implemented to make my life easier,
+while working on my <a rel="noopener" target="_blank" href="https://iamhardliner.itch.io/black-vs-white">game</a>.</p>
+<p>The code can be found here: <a rel="noopener" target="_blank" href="https://github.com/hardliner66/sol">https://github.com/hardliner66/sol</a></p>
+<ul>
+<li><a href="https://blog.hardliner.codes/posts/01-my-odin-library/#modules">Modules</a>
+<ul>
+<li><a href="https://blog.hardliner.codes/posts/01-my-odin-library/#iter">iter</a></li>
+<li><a href="https://blog.hardliner.codes/posts/01-my-odin-library/#fixed-dynamic-array">fixed_dynamic_array</a>
+<ul>
+<li><a href="https://blog.hardliner.codes/posts/01-my-odin-library/#fixed-dynamic-array-iter">fixed_dynamic_array/iter</a></li>
+</ul>
+</li>
+<li><a href="https://blog.hardliner.codes/posts/01-my-odin-library/#expression-evaluator">expression_evaluator</a></li>
+<li><a href="https://blog.hardliner.codes/posts/01-my-odin-library/#stack-tracking-allocator">stack_tracking_allocator</a></li>
+<li><a href="https://blog.hardliner.codes/posts/01-my-odin-library/#opaque">opaque</a></li>
+</ul>
+</li>
+<li><a href="https://blog.hardliner.codes/posts/01-my-odin-library/#history">History</a></li>
+</ul>
+<h2 id="modules">Modules</h2>
+<h3 id="iter">iter</h3>
+<p>An interface and helper functions for implementing iterators.</p>
+<h3 id="fixed-dynamic-array">fixed_dynamic_array</h3>
+<p>A container using a fixed size, heap allocated buffer as its backing data structure, while
+providing an interface similar to a dynamic array.</p>
+<p>This is basically the heap allocated version of Odin's <code>Small_Array</code>.</p>
+<h4 id="fixed-dynamic-array-iter">fixed_dynamic_array/iter</h4>
+<p>An iterator over the values in a <code>Fixed_Dynamic_Array</code> which provides access functions,
+that allow safe mutation of the underlying data. Even during iteration.</p>
+<h3 id="expression-evaluator">expression_evaluator</h3>
+<p>A simple expression evaluator, using precedence climbing to allow reconfiguration of how precedence
+is handled, which provides the possibility to add custom operators and pass variables.</p>
+<p>The expression evaluator provides three procedures.</p>
+<ul>
+<li><code>parse</code>: Parses a string containing an expression into an <code>Expression_Block</code></li>
+<li><code>eval_expr</code>: Evaluates an <code>Expression_Block</code></li>
+<li><code>eval</code>: Combination of <code>parse</code> and <code>eval_expr</code></li>
+</ul>
+<p>While <code>eval</code> is simpler to use, its recommended to <code>parse</code> and <code>eval_expr</code> individually,
+so you can cache the result of parse and re-use it.</p>
+<h3 id="stack-tracking-allocator">stack_tracking_allocator</h3>
+<p>Basically the same as Odin's <code>Tracking_Allocator</code>, but it also stores the stack trace for
+each allocation.</p>
+<p><strong>Windows only</strong></p>
+<h3 id="opaque">opaque</h3>
+<p>Helper types, which can be used to handle data in a type-erased way</p>
+<h2 id="history">History</h2>
+<p>It started when I decided to pre-allocate as much memory as possible for the game I'm working on.
+The biggest use cases were enemies and projectiles, which there can be a lot in the game.</p>
+<p>The first version just heap allocated a huge slice with enough space to hold the maximum amount
+of entities I could have while the game was running. This worked fine, but you need to know which
+entities are alive, so you can process them. To do that, I made every entity have a HP value and
+when iterating over them, I checked if that values was &gt; 0.</p>
+<p>That was problematic for a few reasons. It introduces an if-check in the loop, which can
+harm performance and lead to bugs if you forget to do the check.
+It also made spawning of entities more complicated, because you need to search for a dead entity
+first, so you can initialize a new entity there. And finally, as you have no way of really knowing
+where each alive entity is located in the array, you need to iterate over way more entities than
+necessary. You can kind of set a lower bound by remembering what the highest index was,
+but that was more of a band-aid than an actual fix.</p>
+<p>In order to remedy this, I spent some time looking at the standard library of Odin,
+which is where I found an interesting container type called a <code>Small_Array</code>.</p>
+<p>A <code>Small_Array</code> is a stack allocated array-like type, but with the interface of
+a dynamic array. So you can add and remove items dynamically, while the container
+makes sure that all the invariants are kept:</p>
+<ul>
+<li>Elements are in a contiguous memory region</li>
+<li>You can't access outside the virtual bounds of the array
+<ul>
+<li>virtual, because accessing memory is technically valid, as long as you stay inside the bounds of the backing array</li>
+<li>semantically that memory should be considered out of bounds though, which is what the container will uphold</li>
+</ul>
+</li>
+<li>After the container is created, no additional memory is allocated unless you call something like resize</li>
+</ul>
+<p>It only had one drawback, which is that size of the backing array has to be known at compile time,
+which was at odds with my goal of being able to configure as much as possible in the game without
+having to recompile.</p>
+<p>After some research, I decided to create a new container based on how <code>Small_Array</code> works,
+but using a heap allocated slice instead of a stack allocated array.
+Sadly I couldn't come up with a proper name, so I named it <code>Fixed_Dynamic_Array</code>,
+because it used a fixed size of backing storage, while providing an interface similar to how a dynamic array works.
+Now I can read the length from a config file at runtime and still have similar guarantees to <code>Small_Array</code>.</p>
+<p>Once that was done, the next problem was the cleanup. Namely when an entity dies,
+it should be removed from the array. But if you do that naively while you loop over the array,
+you might accidentally skip an element or process an element twice. So I kept the HP and
+removed dead elements in a second pass.</p>
+<p>For this problem I also found a solution in the standard library. There is a nice function
+called <code>unordered_remove</code>, which takes the valid element and puts it where the removed element is.
+Then you just need to decrement the length and you removed an element without having to move
+all the elements after one position up. That means that if an entity dies, you can do an
+unordered remove and skip incrementing the loop counter, so you process the new element,
+which is now at the position of the removed element, instead of skipping it.</p>
+<p>Having to manually manage a loop counter is quite bothersome, so I started experimenting
+with how for loops work in Odin, in order to create an iterator that would properly
+handle removed elements. At first, I just stored the expected length and skipped
+incrementing the index if it had changed, but I realized that there are more operations
+that can safely be done, if they are properly accounted for.</p>
+<p>So I added functions to the iterator, that could safely be used to manipulate the
+the array, while still making sure no elements are skipped or iterated twice.</p>
+<p>At this point I was quite happy with how the container worked. Iteration was easy again.
+Removal was easy. And all elements were neatly organized in a contiguous fashion.</p>
+<p>So I went back to working on the game. My next goal was, to clean up the config.
+It had grown from just a few settings to well over 50 values and many of them were
+in weird places, were it not only made no sense for them to be there, but I also
+had to break the structure multiple times to accommodate for new things. So it was
+definitely time to clean up. Not only for my sake, but also so my collaborators
+wouldn't need to search where a setting was every time, because I had to change something.</p>
+<p>While doing that, I had the idea to also add scaling to the game, so that enemies
+could tank more, the farther the game went on. At first I hard coded the formulas
+into the game, but having a new cleaned up config file, I thought it might be
+nice to add the possibility to change the scaling formula through the config,
+so I spent some time implementing an expression parser/evaluator with support
+for custom operators and variables.</p>
+<p>After that, I started to doing some cleanup and refactoring of the rest of the code,
+when Karl Zylinski dropped a blog post about <a rel="noopener" target="_blank" href="https://zylinski.se/posts/handle-based-arrays/">handle-based arrays</a>.</p>
+<p>While reading it, I noticed that he also created an iterator, but he had figured out
+a cleaner way to use them in a for loop.</p>
+<p>My version:</p>
+<pre data-lang="odin" class="language-odin z-code"><code class="language-odin" data-lang="odin"><span class="z-text z-plain">iter := make_iter(arr)
+for it := next(&amp;iter); it != nil; it = next(&amp;iter) {
+    // use it
+}
+</span></code></pre>
+<p>His version:</p>
+<pre data-lang="odin" class="language-odin z-code"><code class="language-odin" data-lang="odin"><span class="z-text z-plain">iter := make_iter(arr)
+for it in next(&amp;iter) {
+    // use it
+}
+</span></code></pre>
+<p>So I started experimenting with the iterator code again. When I figured out how
+this worked, I thought it might be a nice to have a generic iterator interface,
+which you could re-use and base other iterators on.</p>
+<p>This is where the nerd-snipe happened, because this was not something that I actually
+needed. Just something that seemed interesting to do.</p>
+<p>I created a first prototype, but soon realized that different iterators can have
+different types for their internal state, so if I wanted a truly generic iterator,
+I had to get rid of the state type somehow and to do that, I chose to transmute my
+way to a working implementation.</p>
+<p>But that was really ugly and hacky, so I started implementing an opaque type,
+which could be used for type erasure, while keeping the ugly transmutes away
+from the actual code. I ended up creating three variants of the opaque type.
+A stack allocated version, a heap allocated version and a pointer version.
+Each had their own benefits and drawbacks. The version I chose for the iterator
+was the stack allocated version, because I didn't want to heap allocate every time an
+iterator is created and I also didn't want to force users to remember to free the iterator
+when they're done.</p>
+<p>This worked quite nicely, but because it was stack allocated,
+you needed to specify the size at compile time. So to actually make this work, I had to define a
+maximum size an iterator (including state) could have. At first I saw it as a necessary evil,
+in order to have an iterator, that only know what type it returned and not what kind of state
+it had, but every other day I would start thinking about it again, because I thought there
+has to be a better way to do this.</p>
+<p>That thought is what led me experiment with slices, which ended in me creating
+<a rel="noopener" target="_blank" href="https://github.com/hardliner66/sol/blob/main/experiments/ongoing/slice_abuse/slice_abuse.odin">this monstrosity</a>.
+Knowing a bit more about how the internals worked, i was able to abuse how slices work
+in order to create an iterator that would work with value (<code>for v in slice</code>) and reference (<code>for &amp;v in slice</code>) semantics,
+without it having any sort of backing container. It is basically a massive hack,
+which abuses implementation details about slices, for loops and <code>deferred_out</code> in order to work.
+(<em>Note: Calling a function that that uses a <code>deferred_*</code> attribute in the head of a loop will cause the deferred function to run on every iteration</em>)</p>
+<p>Sadly the <code>deferred_*</code> functions can't be used with generic functions, which is one of the reasons
+why this approach was not a good fit for creating proper iterators. Which, thinking about how
+hacky all of it is, is probably for the better.</p>
+<p>Seeing that my efforts didn't lead anywhere, I paused working on the iterator stuff
+and went back to working on the game. This time I wanted to tackle memory management.
+As most things already used fixed size containers, I thought it might be a good idea
+to start using an arena allocator and pre-allocating all the memory the game needs at
+initialization.</p>
+<p>While I was at it, I thought I'd also start cleaning up some of the memory leaks.</p>
+<p>With Odin's <code>Tracking_Allocator</code>, this should be a piece of cake, right? Well,
+in theory, yes, in practice, not quite. The problem is that, while the tracking
+allocator stores the location of where the allocation was made, its usefulness depends on
+if and how the location is passed to the allocation functions.</p>
+<p>If a function takes an optional location argument and passes that to the function it
+calls, the allocation will be attributed to the location where you called the initial function.
+If a function doesn't take a location or somewhere in the chain the location is not passed down
+properly, the location is gonna be somewhere inside the standard library of Odin.
+So while I had all the locations the allocations came from, for some of them it was
+almost impossibly to know which part of my code it actually came from.</p>
+<p>In order to remedy this, I borrowed another thing from the standard library.
+I built a version of the tracking allocator, which would not only store the location,
+but also a stack trace for each allocation. While this might not be feasible for all programs,
+it helped me track down all the parts that didn't properly clean up after themselves.</p>
+<p>Finally, we arrive at today. After having played around with and experimented with the iterator
+code for quite some time now, I finally realized how I could get rid of the opaque type altogether.
+So now I can finally rest and stop thinking about how to get rid of those extra bytes we were carrying around.</p>
+<p>I realized that for the most part iterators will be pretty short lived. You create one,
+you use it to iterate over a collection and then you're done with it.
+That means, I can ignore type erasure for this use-case, because we can just use the
+typed iterator (with the state type) directly anyway.</p>
+<p>With that out of the way, creating an iterator that is unaware of its state can be done by
+taking a pointer to the state aware iterator and casting it to be state unaware.
+The interfaces line up anyway and because everything is passed by pointer, the cast
+just works and internally it can still work with the appropriate types.</p>
+
+    </article>
+  </main>
+  <footer>
+    <hr />
+    <div class="c">
+      <nav><div></div></nav>
+      <p class="s90"> &copy; <span id="year">2025</span> Software Engineering According to Hardliner</p>
+      <nav>
+        <a class="s90" href="https://blog.hardliner.codes/about/"> About </a>
+        <a class="s90" href="https://blog.hardliner.codes/contact/"> Contact </a>
+        <a class="s90" href="https://blog.hardliner.codes/privacy/"> Privacy </a>
+        <a class="s90" href="https://blog.hardliner.codes/sitemap.xml" target="_blank"> Sitemap </a>
+      </nav>
+      <p class="s90">Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> & <a href="https://github.com/jieiku/abridge/" target="_blank">Abridge</a></p>
+    </div>
+  </footer><span class="topout">
+<span class="topleft"> </span><a href="#" class="top" title="Back to Top"><i class="svgs svgh angu"></i></a>
+</span>
+</body>
+</html>
