@@ -37,7 +37,7 @@ An interface and helper functions for implementing iterators.
 A container using a fixed size, heap allocated buffer as its backing data structure, while
 providing an interface similar to a dynamic array.
 
-This is basically the heap allocated version of Odins `Small_Array`.
+This is basically the heap allocated version of Odin's `Small_Array`.
 
 #### fixed_dynamic_array/iter
 An iterator over the values in a `Fixed_Dynamic_Array` which provides access functions,
@@ -45,7 +45,7 @@ that allow safe mutation of the underlying data. Even during iteration.
 
 ### expression_evaluator
 A simple expression evaluator, using precedence climbing to allow reconfiguration of how precedence
-is handled, which provides the possibilty to add custom operators and pass variables.
+is handled, which provides the possibility to add custom operators and pass variables.
 
 The expression evaluator provides three procedures.
 
@@ -57,7 +57,7 @@ While `eval` is simpler to use, its recommended to `parse` and `eval_expr` indiv
 so you can cache the result of parse and re-use it.
 
 ### stack_tracking_allocator
-Basically the same as Odins `Tracking_Allocator`, but it also stores the stack trace for
+Basically the same as Odin's `Tracking_Allocator`, but it also stores the stack trace for
 each allocation.
 
 **Windows only**
@@ -78,12 +78,12 @@ That was problematic for a few reasons. It introduces an if-check in the loop, w
 harm performance and lead to bugs if you forget to do the check.
 It also made spawning of entities more complicated, because you need to search for a dead entity
 first, so you can initialize a new entity there. And finally, as you have no way of really knowing
-where each alive entity is located in the array, you need to iterate over way more entites than
+where each alive entity is located in the array, you need to iterate over way more entities than
 necessary. You can kind of set a lower bound by remembering what the highest index was,
-but that was more of a bandaid than an actual fix.
+but that was more of a band-aid than an actual fix.
 
 In order to remedy this, I spent some time looking at the standard library of Odin,
-which is where I found an interresting container type called a `Small_Array`.
+which is where I found an interesting container type called a `Small_Array`.
 
 A `Small_Array` is a stack allocated array-like type, but with the interface of
 a dynamic array. So you can add and remove items dynamically, while the container
@@ -106,7 +106,7 @@ Now I can read the length from a config file at runtime and still have similar g
 
 Once that was done, the next problem was the cleanup. Namely when an entity dies,
 it should be removed from the array. But if you do that naively while you loop over the array,
-you might accidentially skip an element or process an element twice. So I kept the HP and
+you might accidentally skip an element or process an element twice. So I kept the HP and
 removed dead elements in a second pass.
 
 For this problem I also found a solution in the standard library. There is a nice function
@@ -131,7 +131,7 @@ Removal was easy. And all elements were neatly organized in a contiguous fashion
 So I went back to working on the game. My next goal was, to clean up the config.
 It had grown from just a few settings to well over 50 values and many of them were
 in weird places, were it not only made no sense for them to be there, but I also
-had to break the structure multiple times to accomodate for new things. So it was
+had to break the structure multiple times to accommodate for new things. So it was
 definitely time to clean up. Not only for my sake, but also so my collaborators
 wouldn't need to search where a setting was every time, because I had to change something.
 
@@ -201,7 +201,7 @@ which abuses implementation details about slices, for loops and `deferred_out` i
 (_Note: Calling a function that that uses a `deferred_*` attribute in the head of a loop will cause the deferred function to run on every iteration_)
 
 Sadly the `deferred_*` functions can't be used with generic functions, which is one of the reasons
-why this approach was not a good fit for creating proper iterators. Which, thinkging about how
+why this approach was not a good fit for creating proper iterators. Which, thinking about how
 hacky all of it is, is probably for the better.
 
 Seeing that my efforts didn't lead anywhere, I paused working on the iterator stuff
@@ -212,7 +212,7 @@ initialization.
 
 While I was at it, I thought I'd also start cleaning up some of the memory leaks.
 
-With Odins `Tracking_Allocator`, this should be a piece of cake, right? Well,
+With Odin's `Tracking_Allocator`, this should be a piece of cake, right? Well,
 in theory, yes, in practice, not quite. The problem is that, while the tracking
 allocator stores the location of where the allocation was made, its usefulness depends on
 if and how the location is passed to the allocation functions.
